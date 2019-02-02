@@ -7,15 +7,11 @@ string typeOfCard(long int);
 int calculateLength(long int);
 int findFirstNumber(long int);
 
-// AmericanExpress starts with 34 or 37
-// MasterCard starts with 51 - 55
-// Visa starts with 4
-// printf("%s\n", isValid(cc) ? "true" : "false");
-
 int main(void)
 {
     // Ask user to input credit card number
     long int cc = inputCreditCardNumber();
+    // printf("%s\n", isValid(cc) ? "true" : "false");
     bool valid = isValid(cc);
     if (!valid) printf("INVALID\n");
     else
