@@ -55,6 +55,7 @@ string encryptWord(string encryptedWord, int key)
             character -= 97;
             character = (character + key) % 26 + 97;
         }
+        // For uppercase:
         else if (character >= 'A' && character <= 'Z')
         {
             character -= 65;
