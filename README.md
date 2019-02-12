@@ -1,3 +1,3 @@
 # C
 
->>> Practicing the C language
+> Practicing the C language
